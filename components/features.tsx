@@ -11,12 +11,12 @@ const features = [
   {
     title: "Local Processing",
     description:
-      "Run AI models directly on your Mac, ensuring privacy and speed.",
+      "Run AI models locally on your Mac, ensuring privacy and speed.",
     icon: Cpu,
   },
   {
     title: "Multiple Models",
-    description: "Support for various models including Llama and DeepSeek.",
+    description: "Support for various models including LLaMA and DeepSeek.",
     icon: Zap,
   },
   {
@@ -35,7 +35,7 @@ export default function Features() {
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {features.map((feature, index) => (
-            <Card key={index}>
+            <Card key={index} className="rounded-3xl">
               <CardHeader>
                 <feature.icon className="mb-4 h-10 w-10 text-black dark:text-white" />
                 <CardTitle>{feature.title}</CardTitle>

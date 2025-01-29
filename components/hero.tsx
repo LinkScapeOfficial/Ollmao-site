@@ -11,18 +11,18 @@ export default function Hero() {
             className="block dark:hidden"
             src="/ollmao_icon.svg"
             alt="Ollmao"
-            width={180}
-            height={180}
+            width={200}
+            height={200}
           />
           <Image
             className="hidden dark:block"
             src="/ollmao_icon_dark.svg"
             alt="Ollmao"
-            width={180}
-            height={180}
+            width={200}
+            height={200}
           />
         </div>
-        <h1 className="mb-6 text-5xl font-bold text-foreground">
+        <h1 className="mb-6 mt-8 text-5xl font-bold text-foreground">
           Run AI Models on Your Mac with Ollmao
         </h1>
         <p className="mb-8 text-xl text-muted-foreground">
