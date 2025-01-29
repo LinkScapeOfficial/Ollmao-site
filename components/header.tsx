@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="border-b bg-background px-6 py-4">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="flex">
+        <div className="flex flex-row items-center">
           <Image
             className="mr-3 block dark:hidden"
             src="/ollmao.svg"

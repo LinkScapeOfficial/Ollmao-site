@@ -9,24 +9,24 @@ export default function Hero() {
         <div className="mb-5 flex items-center justify-center">
           <Image
             className="block dark:hidden"
-            src="/ollmao.svg"
+            src="/ollmao_icon.svg"
             alt="Ollmao"
-            width={65}
-            height={65}
+            width={180}
+            height={180}
           />
           <Image
             className="hidden dark:block"
-            src="/ollmao_dark.svg"
+            src="/ollmao_icon_dark.svg"
             alt="Ollmao"
-            width={65}
-            height={65}
+            width={180}
+            height={180}
           />
         </div>
         <h1 className="mb-6 text-5xl font-bold text-foreground">
           Run AI Models on Your Mac with Ollmao
         </h1>
         <p className="mb-8 text-xl text-muted-foreground">
-          Integrate with Ollama to run powerful AI models like Llama and
+          Integrate with Ollama to run powerful AI models like LLaMA and
           DeepSeek, right on your Mac.
         </p>
         <Button className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black">
