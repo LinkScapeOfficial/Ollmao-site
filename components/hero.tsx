@@ -30,7 +30,7 @@ export default function Hero() {
           Integrate with Ollama to run powerful AI models like LLaMA and
           DeepSeek, right on your Mac.
         </p>
-        <Link href="https://github.com/LinkScapeOfficial/releases/latest/download/ollmao-universal.dmg">
+        <Link href="https://github.com/LinkScapeOfficial/Ollmao/releases/latest/download/ollmao-universal.dmg">
           <Button className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black">
             <FaApple className="mr-1" />
             Download for Mac
