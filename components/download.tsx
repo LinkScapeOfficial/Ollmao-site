@@ -10,7 +10,7 @@ export default function Download() {
           Download Ollmao for your Mac and start exploring the power of AI
           models.
         </p>
-        <Link href="https://github.com/LinkScapeOfficial/releases/latest/download/ollmao-universal.dmg">
+        <Link href="https://github.com/LinkScapeOfficial/Ollmao/releases/latest/download/ollmao-universal.dmg">
           <Button
             size="lg"
             variant="outline"
