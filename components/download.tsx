@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Download() {
   return (
@@ -9,13 +10,15 @@ export default function Download() {
           Download Ollmao for your Mac and start exploring the power of AI
           models.
         </p>
-        <Button
-          size="lg"
-          variant="outline"
-          className="bg-white text-black hover:bg-gray-200"
-        >
-          Download for Mac
-        </Button>
+        <Link href="https://github.com/LinkScapeOfficial/releases/latest/download/ollmao-universal.dmg">
+          <Button
+            size="lg"
+            variant="outline"
+            className="bg-white text-black hover:bg-gray-200"
+          >
+            Download for Mac
+          </Button>
+        </Link>
       </div>
     </section>
   );

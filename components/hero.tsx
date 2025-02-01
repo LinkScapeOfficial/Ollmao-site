@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FaApple } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -29,10 +30,12 @@ export default function Hero() {
           Integrate with Ollama to run powerful AI models like LLaMA and
           DeepSeek, right on your Mac.
         </p>
-        <Button className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black">
-          <FaApple className="mr-1" />
-          Download for Mac
-        </Button>
+        <Link href="https://github.com/LinkScapeOfficial/releases/latest/download/ollmao-universal.dmg">
+          <Button className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black">
+            <FaApple className="mr-1" />
+            Download for Mac
+          </Button>
+        </Link>
       </div>
     </section>
   );

@@ -26,34 +26,6 @@ export default function Header() {
             Ollmao
           </Link>
         </div>
-        <nav>
-          <ul className="flex space-x-4">
-            <li>
-              <Link
-                href="#features"
-                className="text-foreground hover:text-black"
-              >
-                Features
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#download"
-                className="text-foreground hover:text-black"
-              >
-                Download
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://github.com/LinkScape/ollmao"
-                className="text-foreground hover:text-black"
-              >
-                GitHub
-              </Link>
-            </li>
-          </ul>
-        </nav>
         <Link
           href="https://github.com/LinkScapeOfficial/Ollmao"
           target="_blank"
