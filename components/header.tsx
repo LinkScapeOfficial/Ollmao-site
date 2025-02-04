@@ -8,22 +8,21 @@ export default function Header() {
     <header className="border-b bg-background px-6 py-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex flex-row items-center">
-          <Image
-            className="mr-3 block dark:hidden"
-            src="/ollmao.svg"
-            alt="Ollmao"
-            width={30}
-            height={30}
-          />
-          <Image
-            className="mr-3 hidden dark:block"
-            src="/ollmao_dark.svg"
-            alt="Ollmao"
-            width={30}
-            height={30}
-          />
           <Link href="/" className="text-2xl font-bold text-foreground">
-            Ollmao
+            <Image
+              className="mr-3 block dark:hidden"
+              src="/ollmao.svg"
+              alt="Ollmao"
+              width={100}
+              height={100}
+            />
+            <Image
+              className="mr-3 hidden dark:block"
+              src="/ollmao_dark.svg"
+              alt="Ollmao"
+              width={100}
+              height={100}
+            />
           </Link>
         </div>
         <Link

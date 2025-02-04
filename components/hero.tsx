@@ -9,18 +9,18 @@ export default function Hero() {
       <div className="container mx-auto items-center text-center">
         <div className="mb-5 flex items-center justify-center">
           <Image
-            className="block dark:hidden"
             src="/ollmao_icon.svg"
+            className="block dark:hidden"
             alt="Ollmao"
-            width={200}
-            height={200}
+            width={220}
+            height={220}
           />
           <Image
-            className="hidden dark:block"
             src="/ollmao_icon_dark.svg"
+            className="hidden dark:block"
             alt="Ollmao"
-            width={200}
-            height={200}
+            width={220}
+            height={220}
           />
         </div>
         <h1 className="mb-6 mt-8 text-5xl font-bold text-foreground">
